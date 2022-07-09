@@ -6,11 +6,12 @@
 body {
     color: grey;
     font-family: 'Prompt', sans-serif;
+    /*background: linear-gradient(to right, #44a08d, #093637);*/
 }
 
 header {
+   height: 100px;
    display: flex; 
-   align-items: center;
    border-color: rgb(212, 212, 212);
    border-width: 1px;
    border-bottom-style: solid;
@@ -18,7 +19,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 ul {
@@ -29,13 +30,67 @@ ul {
 
 li {
     margin: 10px;
-    padding: 15px;
+    padding-top: 5px;
     flex-direction: row;
     list-style:none;  
 }
 
-img {
+a {
+    text-decoration: none;
+    text-decoration-color: grey;
+}
+
+.logo {
     width: 100px;
+    height: 100px;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.hero {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.texto1, h1 {
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.texto1, p {
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.texto1 {
+   padding: 30px;
+}
+
+.portada {
+    margin-top: 50px;
+    margin-right: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+.info{
+    display: flex;
+    max-width: 800px;
+    background: linear-gradient(to right, #6190e8, #a7bfe8);
+    color: aliceblue;
+    justify-content: center;
+}
+
+.info p {
+    margin: 10px;
+    padding: 30px;
+}
+
+footer{
     height: 100px;
 }
 
